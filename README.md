@@ -1,5 +1,4 @@
-現在のwebページは以下から
-https://kezunnn.github.io/tabelog.github.io-test/
+現在のwebページ：https://kezunnn.github.io/tabelog.github.io-test/
 
 # -- 作業開始 ---
 
