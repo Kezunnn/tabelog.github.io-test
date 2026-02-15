@@ -9,15 +9,16 @@ git pull                          # リモート（GitHub）の main の最新�
 git checkout -b <feat or fix>/<short-name> # 新しい作業ブランチを作って、そのブランチに切り替える（作業はここでやる）
 ```
 
-# -- 変更→最低限チェック→コミット→push ---
+# -- 変更後 ---
 
 ```jsx
 git add -A                        # 変更を全部ステージング（次のコミットに含める候補に追加）
 git commit -m "feat: <summary>"   # ステージングした変更をコミット（履歴として確定。-mはメッセージ指定）
 git push -u origin feat/<short-name> # ブランチをGitHubへ初回push（-uで以後 git push だけで済むよう追跡設定）
 ```
+github上からpull requestをする
 
-# -- マージ後（片付け）---
+# -- プルリク後（片付け）---
 
 ```jsx
 git checkout main                 # main に戻る（次の作業の準備）
